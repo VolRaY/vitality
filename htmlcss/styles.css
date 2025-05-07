@@ -55,3 +55,30 @@ h1, h2 {
     text-align: right;
     width: 25%;
   }
+
+  footer {
+    font-size: 14px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: grey;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+
+  a:active {
+    color: white;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
