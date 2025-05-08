@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head> 
+    <body>
+      <main class="svo">
+      <h1 class="title" id="title">Регистрация на СВО</h1>
+      <p id="description">Здесь вы можете подать заявку в ряды ВС РФ</p>
+      <form id="survey-form">
+        <fieldset>
+        <label for="name" id="name-label">Имя:<input id="name" type="text" name="survey-form" placeholder="Введите ваше имя" required></label>
+        <label for="email" id="email-label">Почта:<input id="email" type="email" name="Mail" placeholder="Введите вашу почту" required></label>
+        <label for="number" id="number-label">Возраст<input id="number" type="number" name="Age" min="18" max="55" placeholder="Возраст" required></label>
+        </fieldset>
+        <select id="dropdown">
+          <option disabled selected value="">Род войск</option>
+          <option value="1">Сухопутные войска</option>
+          <option value="2">Военно-морской флот</option>
+          <option value="3">Военно-воздушные силы</option>
+          <option value="4">Лечитель</option>
+        </select>
+        <fieldset>
+          <legend>Откуда вы узнали о нас?</legend>
+          <label><input type="checkbox"  value="value" checked/>Друг</label>
+          <label><input type="checkbox"  value="value"/>Интернет</label>
+          <label><input type="checkbox"  value="value"/>Плакаты на улицах</label>
+        </fieldset>
+        <fieldset>
+          <select>
+            <option>
+          </select>
+        </fieldset>
+        <fieldset>
+                    <label><input type="radio"  value="value" checked/>Карьерный рост</label>
+          <label><input type="radio"  value="value"/>Стабильная зарплата</label>
+          <label><input type="radio"  value="value"/>Обучение и дисциплина</label>
+          <label><input type="radio"  value="value"/>Возможность служить за границей</label>
+          <label><input type="radio"  value="value"/>Льготы и страховка</label>
+          <label><input type="radio"  value="value"/>Защита страны</label>
+        </fieldset>
+        <fieldset>
+        </fieldset>
+        <fieldset>
+        </fieldset>
+      </form>
+    </body>
+</html>

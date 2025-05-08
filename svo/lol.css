@@ -1,0 +1,41 @@
+body {
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/80/386/439/military-snipers-russian-russian-army-spetsnaz-special-forces-forest-l96-and-russian-o-wallpaper-4980f8ddd1eadd2b26e748ef6081769d.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+main {
+  color: white;
+  background-color: rgba(64, 64, 64, 0.5);
+}
+
+form {
+  width: 30vw;
+  max-width: 200px;
+  min-width: 100px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+p {
+  text-align: center
+}
+
+label {
+  display: block;
+  margin: 16px 0;
+  font-size: 24px;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 36px;
+  text-align: center
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px
+}
