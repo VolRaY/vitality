@@ -1,25 +1,35 @@
 body {
   background-image: url(https://r4.wallpaperflare.com/wallpaper/80/386/439/military-snipers-russian-russian-army-spetsnaz-special-forces-forest-l96-and-russian-o-wallpaper-4980f8ddd1eadd2b26e748ef6081769d.jpg);
+      display: flex;
+      justify-content: center;
       background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
 }
 
 main {
-  color: white;
-  background-color: rgba(64, 64, 64, 0.5);
+    color: white;
+    background-color: rgba(0, 15, 0, 0.5);
+    width: 30vw;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 32px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 form {
-  width: 30vw;
-  max-width: 200px;
-  min-width: 100px;
-  margin: 0 auto;
-  padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
-  text-align: center
+  font-size: 26px;
+  width: 100%;
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+}
+
+.lol {
+  font-size: 24px;
 }
 
 label {
@@ -30,12 +40,24 @@ label {
 
 .title {
   font-family: sans-serif;
-  font-size: 36px;
+  font-size: 52px;
   text-align: center
 }
 
 fieldset {
+  border: none
+}
+
+.survey-form {
+  display: block;
+  width: 100%;
+  font-size: 32px;
+  background-color: #003300;
+  color: white;
   border: none;
-  padding: 2rem 0;
-  border-bottom: 3px
+}
+
+hr {
+  width: 100%;
+  margin-bottom: 5px;
 }
