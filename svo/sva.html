@@ -12,34 +12,37 @@
       <hr></hr>
       <form id="survey-form" action="https://test-server-post.vercel.app/data" method="post">
         <fieldset>
-        <label for="name" id="name-label">Имя: <input id="name" type="text" name="survey-form" placeholder="Введите ваше имя" required></label>
+        <label for="name" id="name-label">Имя: <input id="name" type="text" name="Imya" placeholder="Введите ваше имя" required></label>
         <label for="email" id="email-label">Почта: <input id="email" type="email" name="Mail" placeholder="Введите вашу почту" required></label>
         <label for="number" id="number-label">Возраст: <input id="number" type="number" name="Age" min="18" max="55" placeholder="Возраст" required></label>
         </fieldset>
-        <select id="dropdown">
+        <select id="dropdown" name="rod_voisk">
           <option disabled selected value="">Род войск</option>
-          <option value="1">Сухопутные войска</option>
-          <option value="2">Военно-морской флот</option>
-          <option value="3">Военно-воздушные силы</option>
-          <option value="4">Лечитель</option>
+          <option value="Suhoput_voiska">Сухопутные войска</option>
+          <option value="Voenno_morskoy_flot">Военно-морской флот</option>
+          <option value="VVS">Военно-воздушные силы</option>
+          <option value="Lechilka">Лечитель</option>
         </select>
         <hr></hr>
         <fieldset>
           <p>Откуда вы узнали о нас?</p>
-          <label for="radio1"><input id="radio1" type="radio" name="Hui"  value="1" checked/>Друг</label>
-          <label for="radio2"><input id="radio2" type="radio" name="Hui"  value="2"/>Интернет</label>
-          <label for="radio3"><input id="radio3" type="radio" name="Hui"  value="3"/>Плакаты на улицах</label>
+          <label for="radio1"><input id="radio1" type="radio" name="source"  value="Drug" checked/>Друг</label>
+          <label for="radio2"><input id="radio2" type="radio" name="source"  value="Internet"/>Интернет</label>
+          <label for="radio3"><input id="radio3" type="radio" name="source"  value="Plakati"/>Плакаты на улицах</label>
         </fieldset>
         <hr></hr>
         <fieldset>
           <p>Что вы ожидаете от службы?</p>
-          <label for="hui"><input id="hui" type="checkbox" name="123"  value="value" checked/>Карьерный рост</label>
-          <label for="hui0"><input id="hui0" type="checkbox" name="123" value="value" />Стабильная зарплата</label>
-          <label for="hui1"><input id="hui1" type="checkbox" name="123" value="value"/>Обучение и дисциплина</label>
-          <label for="hui2"><input id="hui2" type="checkbox" name="123" value="value"/>Возможность служить за границей</label>
-          <label for="hui3"><input id="hui3" type="checkbox" name="123" value="value"/>Льготы и страховка</label>
-          <label for="hui4"><input id="hui4" type="checkbox" name="123" value="value"/>Защита страны</label>
-          <label for="hui5"><input id="hui5" type="checkbox" name="123" value="value"/>Другое</label>
+          <label for="hui"><input id="hui" type="checkbox" name="waiting"  value="Career growth" checked/>Карьерный рост</label> 
+          <label for="hui0"><input id="hui0" type="checkbox" name="waiting" value="Stable salary" />Стабильная зарплата</label>
+          <label for="hui1"><input id="hui1" type="checkbox" name="waiting" value="Training and discipline"/>Обучение и дисциплина</label>
+          <label for="hui2"><input id="hui2" type="checkbox" name="waiting" value="Opportunity to serve"/>Возможность служить за границей</label>
+          <label for="hui3"><input id="hui3" type="checkbox" name="waiting" value="Benefits and insurance"/>Льготы и страховка</label>
+          <label for="hui4"><input id="hui4" type="checkbox" name="waiting" value="Protection of the country"/>Защита страны</label>
+          <label for="hui5"><input id="hui5" type="checkbox" name="waiting" value="Other"/>Другое</label>
+        </fieldset>
+        <fieldset>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Впишите ваши пожелания..."></textarea>
         </fieldset>
         <input id="submit" type ="submit" class="survey-form">
       </form>
